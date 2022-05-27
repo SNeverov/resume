@@ -1,0 +1,41 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/fonts';
+@import 'base/variables';
+// @import 'base/mixins';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #1A1A29;
+    color: $Light-color;
+}
+h1 {
+    padding: 40px 0 0 140px;
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.divider {
+    height: 80px;
+    background-color: #181824;
+}
+
+@import 'blocks/header';
+@import 'blocks/greetings';
+@import 'blocks/about';
+@import 'blocks/tools';
+@import 'blocks/works';
+@import 'blocks/contacts';
+@import 'blocks/privacy';
+@import 'blocks/footer';

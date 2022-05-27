@@ -1,0 +1,119 @@
+.contacts {
+    padding-bottom: 50px;
+    &__left {
+        span {
+            padding-left: 140px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: minmax(300px, 630px) minmax(300px, 630px);
+        column-gap: 80px;
+        justify-content: space-between;
+    }
+    &__social {
+        display: flex;
+        padding-left: 140px;
+        margin-top: 20px;
+        a {
+            display: block;
+            margin-right: 50px;
+        }
+    }
+    &__right {
+        padding-right: 140px;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            padding-top: 40px;
+        }
+    }
+    &__form {
+        margin-top: 20px;
+        width: 100%;
+        label {
+            display: block;
+            position: absolute;
+            top: 6px;
+            left: 12px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #F5F5F5;
+            opacity: 0.5;
+        }
+    }
+    &__input {
+        position: relative;
+        margin-top: 20px;
+        input {
+            background: #31313F;
+            height: 60px;
+            width: 100%;
+            border-radius: 8px;
+            padding: 20px 12px 0 12px;
+            color: $brilliant-green;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            border: none;
+        }
+    }
+    &__textarea {
+        position: relative;
+        textarea {
+            margin-top: 20px;
+            width: 100%;
+            height: 200px;
+            background: #31313F;
+            resize: none;
+            padding: 30px 12px;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: $brilliant-green;
+            border: none;
+        }
+    }
+    &__message {
+        margin-top: 20px;
+    }
+    &__btn {
+        margin-top: 15px;
+        display: block;
+        width: 200px;
+        height: 48px;
+        border-radius: 8px;
+        color: $Light-color;
+        background-color: #31313F;
+        border: 2px solid #7562E0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $brilliant-green;
+            border: 2px solid $brilliant-green;
+        }
+    }
+    &__policy {
+        display: flex;
+        margin-top: 5px;
+        input {
+            margin-right: 20px;
+            align-self: center;
+        }
+    }
+    &__link {
+        margin: 0;
+        a {
+            color: $brilliant-green;
+        }
+    }
+}

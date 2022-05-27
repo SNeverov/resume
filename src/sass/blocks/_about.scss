@@ -1,0 +1,66 @@
+.about {
+    min-height: 650px;
+    background-color: #1A1A29;
+    padding-bottom: 55px;
+    &__wrapper {
+        padding: 0 140px;
+        display: grid;
+        grid-template-columns: minmax(200px, 540px) minmax(200px, 540px);
+        column-gap: 30px;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    &__education {
+        color: $Light-color;
+        border: 3px solid #7562E0;
+        border-radius: 16px;
+        padding: 15px;
+        background-color: #1e213d;
+    }
+    &__expirience {
+        color: $Light-color;
+        border: 3px solid #7562E0;
+        border-radius: 16px;
+        padding: 15px;
+        background-color: #1e213d;
+    }
+    &__mark {
+        width: 40px;
+        height: 40px;
+        background-color: $orange-color;
+        mask-image: url('../img/icons/circle-check-regular.svg');
+        grid-row: 1/3;
+        margin-top: 10px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        grid-template-rows: repeat(3, max-content);
+        column-gap: 15px;
+        row-gap: 5px;
+        color: $Light-color;
+        margin-top: 30px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        
+    }
+    &__subtitle {
+        font-weight: 300;
+        font-size: 12px;
+        border-bottom: 1px solid #848191;
+    }
+    &__descr {
+        grid-column: 1/3;
+        // text-align: justify;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}

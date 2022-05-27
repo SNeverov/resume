@@ -1,0 +1,40 @@
+.tools {
+    padding-bottom: 15px;
+    &__wrapper {
+        padding: 0 140px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    &__item {
+        max-width: 340px;
+        min-width: 280px;
+        height: 280px;
+        border: 3px solid #7562E0;
+        border-radius: 16px;
+        margin-bottom: 40px;
+        padding: 15px;
+        color: $Light-color;
+        // background: rgba($color: #BDBDBD, $alpha: 0.1)
+        background-color: #1e213d;
+    }
+    &__icon {
+        height: 70px;
+        img {
+            display: block;
+            height: 100%;
+            float: right;
+        }
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 22px;
+        padding-top: 10px;
+        color: $brilliant-green;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}

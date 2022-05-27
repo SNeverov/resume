@@ -1,0 +1,18 @@
+.privacy {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px 50px 10px;
+    h1 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    &__item {
+        padding-left: 50px;
+    }
+}

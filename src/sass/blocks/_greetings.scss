@@ -1,0 +1,59 @@
+.greetings {
+    min-height: 640px;
+    background-color: #1A1A29;
+    padding-top: 80px;
+    &__wrapper {
+        padding: 0 140px;
+        display: grid;
+        grid-template-columns: 480px 400px;
+        justify-content: space-between;
+    }
+    &__photo {
+        display: block;
+        max-width: 400px;
+        max-height: 400px;
+        padding-top: 50px;
+    }
+    &__descr {
+        color: #F5F5F5;
+        padding-top: 100px;
+    }
+    &__hello {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 78px;
+        text-align: justify;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        // text-align: justify;
+    }
+    &__btn {
+        width: 160px;
+        height: 48px;
+        margin-right: 35px;
+        margin-top: 29px;
+        border-radius: 8px;
+        background-color: #1A1A29;
+        border: 2px solid #7562E0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $brilliant-green;
+            border: 2px solid $brilliant-green;
+        }
+        a {
+            color: #F5F5F5;
+            text-decoration: none;
+        }
+    }
+}

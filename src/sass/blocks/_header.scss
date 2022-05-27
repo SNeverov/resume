@@ -1,0 +1,39 @@
+.header {
+    height: 80px;
+    background-color: #181824;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    &__logo {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        a {
+            color: $brilliant-green;
+        }
+    }
+    &__link {
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        margin-left: 52px;
+        transition: all 0.3s;
+        &:hover {
+            color: $brilliant-green;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 19px 160px 0;
+    }
+    &__menu {
+        :first-child {
+            margin-left: 0;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
